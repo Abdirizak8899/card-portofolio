@@ -93,7 +93,6 @@ svg{
     border: none;
     outline: none;
     border-radius: 5px;
-    cursor: pointer;
     margin: 20px;
 }
 .btn.msg{
@@ -109,5 +108,4 @@ svg{
     background-color: #dacce9;
     border-color: #d6e9c6;
     border-radius: 5px;
-    display: none;
 }
