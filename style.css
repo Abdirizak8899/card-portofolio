@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+
+*{padding: 0; margin: 0;box-sizing: border-box;scroll-behavior: smooth;list-style-type: none;text-emphasis: none;font-family: 'Poppins', sans-serif;}
+
+:root{
+    --yook:#251C31;
+    --ool: #7127BA;
+    --yyoop:#1A0B2E;
+}
+body{
+    background: var(--yyoop);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    border: 2px solid red;
+}
+.card{
+    width: 25em;
+    background: #fff;
+    overflow: hidden;
+    padding: 10px;
+    border-radius: 5px;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 2px solid red; */
+    align-items: center;
+}
+
+.me-img{
+    border: #dacce9 10px solid;
+    border-radius: 50%;
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    margin: 25px;
+}
+.me-img img{
+    width: 150px;
+}
+
+.n-iden{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.n-iden h2{
+    color: var(--yook);
+    font-size: 16px;
+    text-align: center;
+}
+.n-iden img{
+    width: 20px;
+    margin: 10px;
+}
+.bio p,.followers p{
+    color: #251C31;
+
+}
+.followers{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    cursor: pointer;
+}
+svg{
+    width: 20px;
+    margin: 5px;
+}
+.follow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+.follow .btn{
+    color: #fff;
+    background: var(--ool);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+}
+.btn.msg{
+    background: #251C31;
+}
+.btn.f-btn{
+    transition: 0.5s ease;
+}
+.btn.f-btn.hide{
+}
+.success {
+    color: #7127BA;
+    background-color: #dacce9;
+    border-color: #d6e9c6;
+    border-radius: 5px;
+    display: none;
+}
